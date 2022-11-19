@@ -1,0 +1,114 @@
+/* Global */
+/* #f9f0d1    between yellow and white
+    #f9ca36 yellow
+    #000000  black
+    #ff0000  red
+    #8c201a  dark red
+*/
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+/* Navbar */
+nav{
+    display: flex;
+    padding-left: 70px;
+    padding-right: 100px;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgb(0 0 0 / 5%), 0 25px 25px rgb(0 0 0 / 7%);
+}
+nav img{
+    padding-left: 20px;
+}
+nav a{
+    padding-top: 40px;
+    padding-right: 80px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #8c201a;
+}
+.lang{
+    text-align: left !important;
+    font-weight: 600;
+}
+.photo{
+    padding: 10px;
+    padding-right: 200px;
+}
+/* Homepage */
+.img-gallery{
+    width: 80%;
+    padding-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px , 1fr));
+    grid-gap: 30px;
+}
+.img-gallery img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;    
+}
+.img-gallery img:hover{
+    transform: scale(0.9);
+    border-radius: 20px;
+}
+figcaption{
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* Projects pages */
+.project1, .petrol1, .invest1, .house1, .health1, .edu1{
+    padding: 100px;
+    padding-top: 150px;
+    text-align: center;
+}
+.project1 h4, .project2 h4, .petrol1 h4, .petrol2 h4, 
+.invest1 h4, .invest2 h4, .house1 h4, .house2 h4, 
+.health1 h4, .health2 h4, .edu1 h4, .edu2 h4{
+    font-size: 25px;
+    line-height: 1.5;
+    color: #8c201a;
+}
+.project1 h5, .project2 h5, .petrol1 h5, .petrol2 h5, 
+.invest1 h5, .invest2 h5, .house1 h5, .house2 h5, 
+.health1 h5, .health2 h5, .edu1 h5, .edu2 h5{
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #ad8b1b;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+.project1 p, .project2 p, .petrol1 p, .petrol2 p, 
+.invest1 p, .invest2 p, .house1 p, .house2 p, 
+.health1 p, .health2 p, .edu1 p, .edu2 p{
+    font-size: 18px;
+    line-height: 1.3;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+.project2, .petrol2, .invest2, .house2, .health2, .edu2{
+    padding-bottom: 100px;
+    text-align: center;
+}
+/* English navbar */
+.enNav img{
+    padding-left: 0px;
+    padding-right: 50px;
+}
+video{
+    padding-left: 300px;
+    padding-top: 100px;
+    padding-right: 300px;
+}
